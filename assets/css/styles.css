@@ -1,0 +1,44 @@
+.xtra_hidden {
+	opacity: 0.6;
+}
+
+#adminmenu #toplevel_page_xtra_show_more a {
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+#adminmenu #xtra_search {
+	margin: 10px;
+}
+#adminmenu #xtra_search input {
+	width: 100%;
+	padding: 0;
+	-webkit-user-select:text;
+}
+
+body:not(.folded) #adminmenu #xtra_search input {
+	padding-left: 20px;
+}
+
+body:not(.folded) #adminmenu #xtra_search:before {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	z-index: 20;
+	font: normal 20px/1 dashicons!important;
+	content: "\f179";
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.xtra-dialog {
+	max-width:800px;
+	min-width:200px;
+}
+
+#xtra_save {
+	margin: 0 auto;
+	display: block;
+}
